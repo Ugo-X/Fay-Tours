@@ -383,15 +383,15 @@ display: flex;
 }
 .hero-content h1{
   font-family: 'Aclonica', sans-serif;
-  -webkit-animation: h1 2.5s ease-in-out 1;
-          animation: h1 2.5s ease-in-out 1;
+  -webkit-animation: h1 1s ease-in-out 1;
+          animation: h1 1s ease-in-out 1;
   /* color: var(--clr-primary-5); */
 }
 @-webkit-keyframes h1{
 0%{
   opacity: 0;
-  -webkit-transform: translateY(-300px);
-          transform: translateY(-300px);
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
 }
 
 }
@@ -399,8 +399,8 @@ display: flex;
 @keyframes h1{
 0%{
   opacity: 0;
-  -webkit-transform: translateY(-300px);
-          transform: translateY(-300px);
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
 }
 
 }
@@ -409,8 +409,8 @@ display: flex;
 font-size: 50px;
 margin-bottom: 1.5rem;
 font-family: 'Great Vibes', cursive;
--webkit-animation: h2 3s ease-in-out 1;
-        animation: h2 3s ease-in-out 1;
+-webkit-animation: h2 2s ease-in-out 1;
+        animation: h2 2s ease-in-out 1;
 }
 @-webkit-keyframes h2 {
   0%,50%,75%{
@@ -441,8 +441,8 @@ font-family: 'Great Vibes', cursive;
 }
 
 .p-btn{
-  -webkit-animation: p-btn 4s ease-in;
-          animation: p-btn 4s ease-in;
+  -webkit-animation: p-btn 2s ease-in;
+          animation: p-btn 2s ease-in;
 }
 @-webkit-keyframes p-btn {
   0%,50%,75%{
@@ -457,8 +457,8 @@ font-family: 'Great Vibes', cursive;
 .hero-btn{
 
   font-family: 'Aclonica', sans-serif;
-  -webkit-animation: hero-btn 4.5s ease-in 1;
-          animation: hero-btn 4.5s ease-in 1;
+  -webkit-animation: hero-btn 2.5s ease-in 1;
+          animation: hero-btn 2.5s ease-in 1;
 padding-right: 1.2rem;
 padding-left: 1.2rem;
 border-radius: 0.5rem;

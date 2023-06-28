@@ -528,6 +528,7 @@ About
 
 .about-info,.about-img{
 margin-bottom: 2rem;
+text;
 }
 
 
@@ -595,6 +596,8 @@ transition: all 0.5s linear;
 .about-info{
 line-height: 2.2;
 font-size: 20px;
+text-align: justify;
+
 }
 
 .about-pic{
@@ -732,6 +735,13 @@ Featured Tours
   position: relative;
 
 } 
+
+.north-flex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+}
 
 
 .tour-image-container{
@@ -982,7 +992,7 @@ Footer
   padding-right: 2rem;
 }
 
-.footer-links,.footer-icons{
+.footer-icons{
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
@@ -991,6 +1001,20 @@ Footer
      -moz-column-gap: 1.5rem;
           column-gap: 1.5rem;
   flex-wrap: wrap;
+  row-gap: 1.5rem;
+}
+@media screen and (min-width:800px){
+  .footer-links,.footer-icons{
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 1.5rem;
+     -moz-column-gap: 1.5rem;
+          column-gap: 1.5rem;
+  flex-wrap: wrap;
+  row-gap: 1.5rem;
+}
 }
 .footer-link{
   color: white;
@@ -999,6 +1023,8 @@ Footer
   letter-spacing: var(--spacing);
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
+  line-height: 2.0;
+ 
 }
 
 .footer-link:hover{
@@ -1010,6 +1036,8 @@ Footer
   color: white;
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  display: block;
+  margin-top: 1rem;
 }
 
 .footer-icon:hover{
@@ -1019,6 +1047,8 @@ color: var(--clr-primary-5);
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   color: white;
+  margin-top: 1.5rem;
+  
 }
 
 .Ugo-X{

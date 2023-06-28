@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Section</title>
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+    <!-- external css stylesheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <style>
+      a:hover{
+  color: red;
+}
+      .about-nav {
+        height: 4rem;
+        background: rgba(0, 0, 0, 0.881);
+        color: #3a6073;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+      }
+      @media screen  and (max-width:485px) {
+        .about-nav{
+          height: 6rem;
+        }
+        .about-title{
+          margin-top: 4rem;
+        }
+      }
+      .about-cent {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90vw;
+        margin: 0 auto;
+        padding: 1rem;
+        flex-wrap: wrap;
+      }
+      ul a {
+        color: hsl(185, 62%, 45%);
+      }
+
+      .about-nav ul {
+        color: #3a6073;
+        font-size: 20px;
+        text-transform: capitalize;
+        display: inline-flex;
+        column-gap: 0.65rem;
+      }
+      .explore {
+        color: hsl(185, 62%, 45%);
+      }
+
+      .main-about {
+        min-height: calc(100vh - 4rem);
+      }
+
+      .about-info h3 {
+        font-size: 30px;
+        font-weight: bolder;
+        text-align: left;
+      }
+      h4 {
+        font-size: 23px;
+      }
+      .about-pic {
+        height: 0;
+        border-radius: 1rem;
+       
+      }
+
+      .hello {
+        display: none;
+        border-radius: 1rem;
+      }
+
+      @media screen and (min-width: 900px) {
+        .about-img {
+          align-self: baseline;
+        }
+
+        .about-pic {
+          height: 400px;
+          object-fit: cover;
+          
+        }
+        .hello {
+          display: initial;
+          margin-top: 4rem;
+          
+        }
+        .about-img::before {
+          content: "";
+          display: none;
+        }
+        .about-info h3 {
+          font-size: 30px;
+          font-weight: bolder;
+          text-align: center;
+          line-height: 2;
+        }
+      }
+      .about-icon {
+        color: hsl(185, 62%, 45%);
+      }
+      body {
+        background:white;
+        color: hsl(185, 62%, 45%);
+      }
+      .about-info p {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+        <!-- nav bar -->
+      <nav class="navbar">
+<!-- nav-center -->
+<div class="nav-center">
+  <!-- nav-header -->
+  <div class="nav-header">
+    <img src="./images/others/final-logo.png" class="nav-logo" alt="">
+    <button type="button" class="nav-toggle" id="nav-toggle">
+<i class="fas fa-bars"></i>
+    </button>
+  </div>
+  <!-- end of nav-header -->
+  <!-- nav links -->
+<ul class="nav-links" id="nav-links">
+  <!-- single links -->
+  <li><a href="./index.html" class="nav-link ">home</a></li>
+  <!-- end of single link -->
+  <!-- single links -->
+  <li><a href="./about.html" class="nav-link "> about</a></li>
+  <!-- end of single link -->
+  <!-- single links -->
+  <li><a href="./services.html" class="nav-link"> services</a></li>
+  <!-- end of single link -->
+  <!-- single links -->
+  <li><a href="./tours.html" class="nav-link">featured tours</a></li>
+  <!-- end of single link -->
+  <!-- single links -->
+  <li><a href="./index.html" class="nav-link"> gallery</a></li>
+  <!-- end of single link -->
+</ul>
+<!-- end of nav links -->
+<!-- nav icons -->
+<ul class="nav-icons">
+<!-- single icon -->
+<li>
+  <a href="https://www.twitter.com" target="_blank" class="nav-icon"> <i class="fab fa-twitter"></i></a>
+</li>
+<!-- end of single icon -->
+<!-- single icon -->
+<li>
+  <a href="https://www.twitter.com" target="_blank" class="nav-icon"> <i class="fab fa-facebook"></i></a>
+</li>
+<!-- end of single icon -->
+<!-- single icon -->
+<li>
+  <a href="https://www.twitter.com" target="_blank" class="nav-icon"> <i class="fab fa-instagram"></i></a>
+</li>
+<!-- end of single icon -->
+</ul>
+<!-- end of nav icons -->
+</div>
+<!-- end of nav-center -->
+      </nav>
+      <!-- end of nav-bar -->
+
+    <!-- about section....lol obviously -->
+    <section class="section main-about" id="about">
+      <!-- title -->
+      <div class="section-title ">
+        <h2 class="about-title">About <span class="about-span">us</span></h2>
+      </div>
+      <!--end of title  -->
+
+      <!-- section center -->
+      <div class="section-center about-center">
+        <!-- about image -->
+        <article class="about-img">
+          <img
+            src="../images/others/North-lights.jpg"
+            alt=""
+            class="about-pic"
+          />
+          <div class="mini-abt-gallery">
+            <img
+              src="./images/others/bgd-globe-2.jpg"
+              class="hello"
+              alt=""
+            />
+          </div>
+        </article>
+        <!-- end of about image -->
+        <!-- about info -->
+        <article class="about-info">
+          <h3>
+            bringing the world 
+            <span class="about-icon"> <i class="fa-solid fa-globe"></i></span>
+            
+            to you....
+          </h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            qui alias veniam molestias nesciunt et assumenda tempora nemo ab
+            possimus.
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            qui alias veniam molestias nesciunt et assumenda tempora nemo ab
+            possimus.
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum in
+            nulla quis, veniam ullam repudiandae, magnam quaerat error quo dolor
+            inventore doloremque possimus nam maxime dicta animi cupiditate
+            officia hic?
+          </p>
+          <h4>our mission</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+            facere, iusto quo veritatis optio sequi ducimus laborum
+            necessitatibus possimus quasi! Saepe, eveniet ipsum possimus neque
+            consequuntur accusantium nesciunt minima harum!
+          </p>
+          <h4>our vision statement</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
+            temporibus dolore atque, inventore suscipit distinctio?
+          </p>
+          <h4>our achievements</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            porro alias quas quia, nisi consectetur debitis beatae amet?
+            Incidunt ut maiores sunt ipsam ab nesciunt unde et dolores iure
+            consequuntur ipsa officiis corrupti quis tempore, nostrum adipisci.
+            Voluptatibus ex unde repellat delectus. Officia explicabo sapiente
+            nisi corporis asperiores, quidem dolore.
+          </p>
+          <a href="index.html" class="btn about-home-btn"> back home</a>
+        </article>
+        <!-- about class -->
+      </div>
+      <!-- end of section center -->
+    </section>
+    <!-- end of about section -->
+    
+       <!-- footer -->
+<footer class="section footer">
+<!-- footer links -->
+<ul class="footer-links">
+  <!-- single links -->
+  <li><a href="index.html" class="footer-link scroll-link">home</a></li>
+  <!-- end of single link -->
+  <!-- single links -->
+  <li><a href="./about.html" class="footer-link scroll-link"> about</a></li>
+  <!-- end of single link -->
+  <!-- single links -->
+  <li><a href="./services.html" class="footer-link scroll-link"> services</a></li>
+  <!-- end of single link -->
+  <!-- single links -->
+  <li><a href="./tours.html" class="footer-link scroll-link">featured tours</a></li>
+  <!-- end of single link -->
+  <!-- single links -->
+  <li><a href="#" class="footer-link scroll-link"> gallery</a></li>
+  <!-- end of single link -->
+</ul>
+<!-- end of footer links -->
+<!-- footer icons -->
+<ul class="footer-icons">
+<!-- single icon -->
+<li>
+  <a href="https://www.twitter.com" target="_blank" class="footer-icon"> <i class="fab fa-twitter"></i></a>
+</li>
+<!-- end of single icon -->
+<!-- single icon -->
+<li>
+  <a href="https://www.twitter.com" target="_blank" class="footer-icon"> <i class="fab fa-facebook"></i></a>
+</li>
+<!-- end of single icon -->
+<!-- single icon -->
+<li>
+  <a href="https://www.twitter.com" target="_blank" class="footer-icon"> <i class="fab fa-instagram"></i></a>
+</li>
+<!-- end of single icon -->
+</ul>
+<!-- end of footer icons -->
+<p class="copy-right">
+copyright &copy; fay explore Company <span id="date">
+</span>
+all rights reserved
+</p> 
+<p class="Ugo-X"> desgined by Ugo-X 
+  <a href="https://github.com/Ugo-X"> <i class="fa-brands fa-github git-hub-icon"></i></a>
+</p>
+</footer>
+    
+    
+
+     <!-- js -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>

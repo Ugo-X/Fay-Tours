@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>services.html</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+    <!-- external css link -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <style>
+      .service-title {
+        padding-top: 2rem;
+      }
+      .services {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+          url(./images/others/bgd-5.jpg) center/cover no-repeat fixed;
+        /* background: hsl(210, 31%, 80%); */
+        min-height: 100vh;
+      }
+      .single-service-title {
+        font-size: 20px;
+        margin-top: 1rem;
+        color: hsl(185, 62%, 45%);
+      }
+      /* 
+      .service-center {
+        width: 90vw;
+        max-width: 1170px;
+        margin-bottom: 3rem;
+        margin: 0 auto;
+      } */
+
+      .service1{
+        background: white;
+
+        border-radius: 1rem;
+        margin-bottom: 3rem;
+        transition: all 0.3s linear;
+        position: relative;
+      }
+     
+      .service-center{
+        width: 85vw;
+      }
+      .service1:hover {
+        box-shadow: var(--dark-shadow);
+        transform: scale(1.02);
+      }
+      .service-pic {
+        height: 20rem;
+        object-fit: cover;
+      }
+      .service-content{
+  padding: 1.25rem 1.5rem;
+}
+ .services-1-link {
+        margin-bottom: 1rem;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: translateY(15px);
+      }
+      .service-btn {
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+      
+      } 
+
+      @media screen and (min-width: 700px) {
+        .service-center {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+
+        .service1 {
+          flex: 0 0 calc(50% - 2rem);
+        }
+      }
+      @media screen  and (min-width: 1000px) {
+  .service1{
+    flex: 0 0 calc( 33.5% - 2rem);
+  
+  }
+}
+
+    </style>
+  </head>
+  <body>
+      <!-- nav bar -->
+      <nav class="navbar">
+<!-- nav-center -->
+<div class="nav-center">
+  <!-- nav-header -->
+  <div class="nav-header">
+    <img src="./images/others/final-logo.png" class="nav-logo" alt="">
+    <button type="button" class="nav-toggle" id="nav-toggle">
+<i class="fas fa-bars"></i>
+    </button>
+  </div>
+  <!-- end of nav-header -->
+  <!-- nav links -->
+<ul class="nav-links" id="nav-links">
+  <!-- single links -->
+  <li><a href="./index.html" class="nav-link ">home</a></li>
+  <!-- end of single link -->
+  <!-- single links -->
+  <li><a href="./about.html" class="nav-link "> about</a></li>
+  <!-- end of single link -->
+  <!-- single links -->
+  <li><a href="./services.html" class="nav-link"> services</a></li>
+  <!-- end of single link -->
+  <!-- single links -->
+  <li><a href="./tours.html" class="nav-link">featured tours</a></li>
+  <!-- end of single link -->
+  <!-- single links -->
+  <li><a href="./index.html" class="nav-link"> gallery</a></li>
+  <!-- end of single link -->
+</ul>
+<!-- end of nav links -->
+<!-- nav icons -->
+<ul class="nav-icons">
+<!-- single icon -->
+<li>
+  <a href="https://www.twitter.com" target="_blank" class="nav-icon"> <i class="fab fa-twitter"></i></a>
+</li>
+<!-- end of single icon -->
+<!-- single icon -->
+<li>
+  <a href="https://www.twitter.com" target="_blank" class="nav-icon"> <i class="fab fa-facebook"></i></a>
+</li>
+<!-- end of single icon -->
+<!-- single icon -->
+<li>
+  <a href="https://www.twitter.com" target="_blank" class="nav-icon"> <i class="fab fa-instagram"></i></a>
+</li>
+<!-- end of single icon -->
+</ul>
+<!-- end of nav icons -->
+</div>
+<!-- end of nav-center -->
+      </nav>
+      <!-- end of nav-bar -->
+    <section class="services">
+      <div class="section-title service-title">
+        <!-- section-title -->
+        <div class="section-title">
+          <h2>our <span>services</span></h2>
+        </div>
+        <!-- end of section-title -->
+      </div>
+      <!-- services center -->
+      <div class=" section-center service-center">
+        <!-- container-1 -->
+
+        <!-- single service -->
+        <article class="service1">
+          <div class="service-img">
+            <img
+              src="./images/others/service-one.jpg"
+              class="service-pic"
+              alt=""
+            />
+          </div>
+          <div class="service-content">
+            <h4 class="single-service-title">travel with fay</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+              voluptate in alias nobis ex quas modi qui, repellat nam delectus
+              illo rerum recusandae aliquid consequuntur placeat voluptatibus
+              nostrum minima soluta!
+            </p>
+          </div>
+
+          <a href="./forms.html/form.html" class="services-1-link btn">
+            <span class="rotate"> travel options</span></a
+          >
+        </article>
+        <!-- single service -->
+        <article class="service1">
+          <div class="service-img">
+            <img
+              src="./images/others/explore-1.jpg"
+              class="service-pic"
+              alt=""
+            />
+          </div>
+          <div class="service-content">
+            <h4 class="single-service-title">fay explore</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero,
+              nihil deleniti harum nobis consequatur nisi ex reiciendis
+              doloremque commodi amet corporis sapiente quam blanditiis omnis,
+              dolores vitae, rem ipsum quisquam.
+            </p>
+          </div>
+
+          <a href="./forms.html/form.html" class="services-1-link btn">
+            <span class="rotate">explore options</span></a
+          >
+        </article>
+
+        <!-- container 2 -->
+
+        <!-- single service -->
+        <article class="service1">
+          <div class="service-img">
+            <img
+              src="./images/others/lodgings.jpg"
+              class="service-pic"
+              alt=""
+            />
+          </div>
+          <div class="service-content">
+            <h4 class="single-service-title">lodgings and rentals</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+              nobis eligendi quisquam, delectus incidunt unde, corrupti ratione
+              voluptas assumenda consequatur veritatis sed est eaque quia ex.
+              Magnam corporis saepe dolorem?
+            </p>
+          </div>
+
+          <a href="./forms.html/form.html" class="services-1-link btn">
+            <span class="rotate"> lodging options</span></a
+          >
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class="service1">
+          <div class="service-img">
+            <img
+              src="./images/others/adventure.jpg"
+              class="service-pic"
+              alt=""
+            />
+          </div>
+          <div class="service-content">
+            <h4 class="single-service-title">adventure time</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel
+              quidem porro, adipisci voluptates, fugiat nisi sunt tempora
+              placeat soluta, est omnis repellat ratione beatae ab iusto aperiam
+              sint vero eligendi?
+            </p>
+          </div>
+
+          <a href="./forms.html/form.html" class="services-1-link btn">
+            <span class="rotate">adventure options</span></a
+          >
+        </article>
+      </div>
+      <!-- end of service center -->
+
+    </section>
+    
+        <!-- footer -->
+<footer class="section footer">
+<!-- footer links -->
+<ul class="footer-links">
+  <!-- single links -->
+  <li><a href="index.html" class="footer-link">home</a></li>
+  <!-- end of single link -->
+  <!-- single links -->
+  <li><a href="./about.html" class="footer-link"> about</a></li>
+  <!-- end of single link -->
+  <!-- single links -->
+  <li><a href="./services.html" class="footer-link "> services</a></li>
+  <!-- end of single link -->
+  <!-- single links -->
+  <li><a href="./tours.html" class="footer-link">featured tours</a></li>
+  <!-- end of single link -->
+  <!-- single links -->
+  <li><a href="#" class="footer-link "> gallery</a></li>
+  <!-- end of single link -->
+</ul>
+<!-- end of footer links -->
+<!-- footer icons -->
+<ul class="footer-icons">
+<!-- single icon -->
+<li>
+  <a href="https://www.twitter.com" target="_blank" class="footer-icon"> <i class="fab fa-twitter"></i></a>
+</li>
+<!-- end of single icon -->
+<!-- single icon -->
+<li>
+  <a href="https://www.twitter.com" target="_blank" class="footer-icon"> <i class="fab fa-facebook"></i></a>
+</li>
+<!-- end of single icon -->
+<!-- single icon -->
+<li>
+  <a href="https://www.twitter.com" target="_blank" class="footer-icon"> <i class="fab fa-instagram"></i></a>
+</li>
+<!-- end of single icon -->
+</ul>
+<!-- end of footer icons -->
+<p class="copy-right">
+copyright &copy; fay explore Company <span id="date">
+</span>
+all rights reserved
+</p> 
+<p class="Ugo-X"> desgined by Ugo-X 
+  <a href="https://github.com/Ugo-X"> <i class="fa-brands fa-github git-hub-icon"></i></a>
+</p>
+</footer>
+    
+    
+     <!-- js -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
